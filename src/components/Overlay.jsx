@@ -14,7 +14,7 @@ const Section = (props) => {
     >
       <div className="w-1/2 flex items-center justify-center">
         <div className="max-w-sm w-full">
-          <div className="bg-white  rounded-lg px-8 py-12">
+          <div className="bg-slate-100/85 rounded-lg px-8 py-12">
             {props.children}
           </div>
         </div>
@@ -39,8 +39,8 @@ export const Overlay = () => {
     <Scroll html>
       <div class="w-screen">
         <Section opacity={opacityFirstSection}>
-          <h1 className="font-semibold font-serif text-2xl">
-            Hello, I'm Wawa Sensei
+          <h1 className="font-semibold font-sans text-2xl">
+            👋 Hello, I'm Lulu
           </h1>
           <p className="text-gray-500">Welcome to my beautiful portfolio</p>
           <p className="mt-3">I know:</p>
@@ -49,42 +49,38 @@ export const Overlay = () => {
             <li>🧑‍🏫 How to learn</li>
             <li>📦 How to deliver</li>
           </ul>
-          <p className="animate-bounce  mt-6">↓</p>
+          <p className="animate-bounce  mt-6 text-center text-slate-500 text-lg">↓</p>
         </Section>
         <Section right opacity={opacitySecondSection}>
-          <h1 className="font-semibold font-serif text-2xl">
+          <h1 className="font-sans font-bold text-2xl">
             Here are my skillsets 🔥
           </h1>
-          <p className="text-gray-500">PS: I never test</p>
           <p className="mt-3">
             <b>Frontend 🚀</b>
           </p>
-          <ul className="leading-9">
+          <ul className="leading-9 text-right">
             <li>ReactJS</li>
-            <li>React Native</li>
             <li>VueJS</li>
             <li>Tailwind</li>
           </ul>
           <p className="mt-3">
             <b>Backend 🔬</b>
           </p>
-          <ul className="leading-9">
+          <ul className="leading-9 text-right">
             <li>NodeJS</li>
-            <li>tRPC</li>
-            <li>NestJS</li>
-            <li>PostgreSQL</li>
+            <li>MongoDB</li>
           </ul>
-          <p className="animate-bounce  mt-6">↓</p>
+          <p className="animate-bounce text-slate-500 text-lg mt-6 text-center">↓</p>
         </Section>
         <Section opacity={opacityLastSection}>
-          <h1 className="font-semibold font-serif text-2xl">
-            🤙 Call me maybe?
+          <h1 className="font-bold font-sans text-2xl">
+            🤙 Want to contact me?
           </h1>
-          <p className="text-gray-500">
+          <p className="text-gray-800">
             I'm very expensive but you won't regret it
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📞 <a href="tel:(+42) 4242-4242-424242">(+42) 4242-4242-424242</a>
+            💌 <span>dearlulu1995@gmail.com</span>
           </p>
         </Section>
       </div>

@@ -12,7 +12,6 @@ export const Experience = () => {
       <ScrollControls pages={3} damping={0.25}>
         <Overlay />
         <Myhome />
-        {/* <Office /> */}
       </ScrollControls>
     </>
   );

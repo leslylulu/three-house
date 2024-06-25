@@ -47,7 +47,6 @@ export const Overlay = () => {
           <ul className="leading-9">
             <li>🧑‍💻 How to code</li>
             <li>🧑‍🏫 How to learn</li>
-            <li>📦 How to deliver</li>
           </ul>
           <p className="animate-bounce  mt-6 text-center text-slate-500 text-lg">↓</p>
         </Section>
@@ -76,9 +75,6 @@ export const Overlay = () => {
           <h1 className="font-bold font-sans text-2xl">
             🤙 Want to contact me?
           </h1>
-          <p className="text-gray-800">
-            I'm very expensive but you won't regret it
-          </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
             💌 <span>dearlulu1995@gmail.com</span>
           </p>

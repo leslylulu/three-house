@@ -7,7 +7,7 @@ export const FLOOR_HEIGHT = 2.3;
 export const NB_FLOORS = 3;
 
 export function Myhome(props) {
-  const { nodes, materials } = useGLTF("/public/models/office.gltf", {
+  const { nodes, materials } = useGLTF("/models/office.gltf", {
     materials: true
   });
   const ref = useRef();
@@ -200,4 +200,4 @@ export function Myhome(props) {
   );
 }
 
-useGLTF.preload("/public/models/office.gltf");
+useGLTF.preload("/models/office.gltf");
